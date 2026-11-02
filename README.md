@@ -1,41 +1,36 @@
-# Akshat Bist — Portfolio Website
+# Akshat Bist — Modern Engineering & Systems Portfolio
 
-A responsive single-page portfolio built with HTML5, CSS3 and vanilla JavaScript.
+A high-performance, responsive single-page developer portfolio with interactive 3D physics, particle animations, dynamic scroll progress, and glassmorphic aesthetics. Built using modern HTML5, CSS3, and vanilla ES6+ JavaScript.
 
-## Run locally
-1. Extract `akshat-portfolio.zip`.
-2. Open the `akshat-portfolio` folder.
-3. Double-click `index.html`, or open the folder in VS Code and use the Live Server extension.
+## Features & Highlights
 
-No build step or framework is required. An internet connection is only needed to load the Google Fonts.
+- **Interactive 3D Art & Physics**:
+  - Interactive 3D particle sphere on HTML5 Canvas reacting dynamically to cursor coordinates.
+  - Specular glare and 3D perspective tilt cards on toolkit, projects, and education modules.
+  - Trailing ambient cursor lighting and floating orbital badges.
+- **Dedicated Phone Hamburger Navigation**:
+  - Full-screen sliding glassmorphic navigation drawer for mobile devices (`max-width: 768px`) with animated hamburger-to-X icon and body scroll locking.
+  - Clean desktop navigation bar automatically displayed on tablet and desktop screens.
+- **Refined Content & Alignment**:
+  - Curated 6-pillar Technical Toolkit (Programming, Web Development, Artificial Intelligence, Cloud Computing, Cybersecurity, Networking & Systems) aligned in responsive grids (3 columns on desktop, 2 on tablet, 1 on phone).
+  - Highlighted engineering projects (AI Evacuation Planning, Interactive Transportation Network, Campus Event DBMS).
+  - Modern typography pairing `Outfit`, `Plus Jakarta Sans`, and `JetBrains Mono`.
+  - Direct 1-click clipboard email copy with visual feedback badge and direct GitHub link.
 
-## Personalize before publishing
-1. Open `js/script.js`.
-2. Add your real email, GitHub URL and LinkedIn URL in the `CONTACT` object.
-3. Add your own resume PDF at `assets/resume.pdf` if you want a resume button. The current design intentionally avoids a fake resume link.
-4. Review every project status and description before sharing the site.
-5. Update the education details if your college name or expected graduation year should be shown.
+## Run Locally
 
-## Project status wording
-- AI evacuation system: in development.
-- Transportation network: academic project / planned implementation.
-- Campus event booking: academic DBMS project.
-- Arduino radar: hardware implementation tested.
-- Virtual music studio: concept / proposed project.
+1. Open the project folder in VS Code or any editor.
+2. Launch `index.html` directly in any modern browser, or use the VS Code **Live Server** extension.
+3. No build steps, frameworks, or dependencies are required.
 
-These labels are deliberately conservative. Update them only when the project status changes.
+## Folder Structure
 
-## Folder structure
 ```text
 akshat-portfolio/
-├── index.html
+├── index.html          # Semantic HTML5 layout with accessibility tags
 ├── css/
-│   └── style.css
+│   └── style.css       # Design system, 3D animations & responsive media queries
 ├── js/
-│   └── script.js
-├── assets/
-│   ├── images/
-│   └── icons/
-└── README.md
+│   └── script.js       # 3D canvas sphere, tilt engine & mobile hamburger logic
+└── README.md           # Documentation
 ```
-# first-portfolio
